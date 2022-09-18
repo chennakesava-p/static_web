@@ -1,0 +1,177 @@
+body{
+    border: 0px;
+    margin: 0px;
+    background-color:black ;
+}
+.row
+{
+    width: 100%;
+    height: 120px;
+    background-color:black;
+
+
+}
+.logo{
+    width: 10%;
+   
+}
+
+.logo img{
+   
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.logo, navbtns{
+    float: left;
+
+}
+.navbtns{
+    width:50% ;
+    
+    
+}
+.navbtns a{
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+    padding:8px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight:bolder;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: white;
+}
+a:hover{
+    background-color: blue;
+    color: black;
+}
+
+#icon{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#icon:hover{
+    background-color:lavender;
+}
+.content{
+    width: 100%;
+}
+.content img{
+    height: 630px;
+    width: 100%;
+    display: flex;
+}
+.content h1{
+    position: absolute;
+    top: 25%;
+    width:100%;
+    right:90px;
+    text-align:right;
+    font-size: 7rem;
+    color: white;
+}
+.content p{
+    position: absolute;
+    top:45%;
+    width:100%;
+    right:80px;
+    text-align:right;
+    font-size: 2rem;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+    
+    
+}
+.courses{
+    width: 80%;
+    height: 1100px;
+    margin:0 auto auto;
+}
+.coursesdiv{
+    width: 20%;
+    border: 1px solid lightgrey;
+    box-shadow: 3px 6px goldenrod;
+    height: 320px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    background-color: white;
+
+}
+.coursesdiv img{
+   width: 100%;
+   height: 60%;
+   border-radius:10px;
+}
+.coursesdiv a{
+   text-decoration: none;
+   font-size: 20px;
+   margin-left: 80px;
+   margin-bottom: 2px;
+   padding: 5px;
+   border: 2px solid blue;
+   border-radius: 5px;
+}
+.coursesdiv p{
+    font-size: 30px;
+    text-align: center;
+}
+.coursesdiv a:hover{
+    background-color: aqua;
+}
+.about{
+    width: 75%;
+    height: 300px; ;
+    margin:0 auto auto;
+}
+.aboutdiv{
+    
+    border: 1px solid lightgrey;
+    box-shadow: 3px 6px 3px 6px pink;
+    height: 250px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.aboutdiv p{
+   text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   padding-top: 30px;
+}
+.footer{
+    width: 100%;
+    height: 230px;
+    background-color:black;
+
+}
+.contact_matter{
+    width: 50%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    text-shadow: 3px 1px blueviolet;
+    
+
+}
+.contact_soicalmedia{
+    width: 50%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+.contact_soicalmedia img{
+    margin-left: 3px;
+}
